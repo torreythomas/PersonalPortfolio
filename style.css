@@ -96,6 +96,10 @@ li {
     font-size: 1.5em;
 }
 
+a:hover{
+  color: skyblue;
+}
+
 
 /*  about me section  */
 
