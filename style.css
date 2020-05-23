@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background: url(./main-page-background-image.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+}
+
+.container {
+    margin-top: 95px;
+}
+
+
+
+#nav-bar {
+    overflow: hidden;
+    width: 100vw;
+    height: 10vh;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+.name{
+    color: white;
+    font-size: 6em;
+    animation-name: bounce;
+    text-align: center;
+    margin-top: 40vh;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+.occupation {
+    font-size: 30px;
+    color: gray;
+    font-family: 'Amatic SC', cursive;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin: 10px;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+li {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+
+}    
