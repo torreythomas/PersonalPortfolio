@@ -65,7 +65,7 @@
                 <div class="projects-grid"> 
                     <a href="https://vast-tundra-84762.herokuapp.com/jobs" target="_blank" class="project project-tile">
                      <img class="project-image" width="50px" height="50px" src='./api.png' alt="responsive product page">
-                     <h2 class="project-title">  Responsive Product Page </h2></div>
+                     <h2 class="project-title">  Company API </h2></div>
                     </a>
                     </div>
             </section>
