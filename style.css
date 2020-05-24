@@ -275,7 +275,13 @@ a {
         font-size: 15px;
     }
 
-      
+    .fa-dev{
+        margin-left: -5px;
+    }
+
+    .fa-dev:hover{
+        color: skyblue;
+    }
     
 }
 
