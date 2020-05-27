@@ -274,13 +274,18 @@ a {
     .project-title {
         font-size: 15px;
     }
-
-    .fa-dev{
-        margin-left: -5px;
-    }
+.fa-iconss{
+    display: flex;
+    justify-content: center;
+    margin-left: -35px;
+}
 
     .fa-dev:hover{
         color: skyblue;
+    }
+
+    .fa-medium:hover{
+        color: skyblue; 
     }
     
 }
