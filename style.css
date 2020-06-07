@@ -184,9 +184,10 @@ a:hover{
 
 .projects-grid {
     display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
-    width: 25%;
+    width: 29%;
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -223,7 +224,14 @@ a {
     padding: 2rem 0.5rem;
 }
 
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+
+  
 
 /* All media queries */
 
