@@ -7,7 +7,10 @@
 
 }
 
-
+h3 {
+    color: skyblue;
+    text-align: center;
+}
 
 html {
     overflow: scroll;
@@ -165,16 +168,55 @@ background-color: #1a1a1a;
     height: 65vh;
 }
 #about {
-background-color: #1a1a1a;
+    background: url(./me.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 color: white;
-    height:90vh;
+    height:120vh;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-container{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80vw;
+    height: 80vh;
+    text-align: center;
+    line-height: 20px;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+
+
+.about-me-text-container {
+    margin: 10px;
+    padding: 5px;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
 
 
 .about-description-container{
     display: flex;
-    line-height: 15px;
+    flex-direction: column;
 
 }
 
@@ -196,8 +238,8 @@ color: white;
 
 .about-line {
     margin: 30px;
-    line-height: 32px;
-    font-size: 1.5em;
+    line-height: 75px;
+    font-size: 3em;
 }
 
 
@@ -247,6 +289,7 @@ color: white;
 .fa-iconss{
     margin: 20px;
 }
+
 
 .projects-grid {
     display: grid;
@@ -344,9 +387,9 @@ color: black;
    
     .about-line {
         margin: 0px;
-        line-height: 32px;
+        line-height: 19px;
         font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     .projects-grid {
@@ -436,9 +479,9 @@ color: black;
       
     .about-line {
         margin: 20px;
-        line-height: 32px;
+        line-height: 24px;
         font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
 
@@ -490,6 +533,13 @@ font-size: 20px;
         margin: 50px;
         padding: 10px;
         text-align: left;
+    }
+
+    .about-line {
+        margin: 20px;
+        line-height: 35px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.4em;
     }
 
 
