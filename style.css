@@ -164,9 +164,13 @@ i:hover{
 
 
 #footer {
-background-color: #1a1a1a;
+    background: url(./main-page-background-image.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100vw;
-    height: 65vh;
+    height: 110%;
 }
 #about {
     background: url(./me.jpeg) no-repeat center center fixed; 
@@ -175,7 +179,7 @@ background-color: #1a1a1a;
     -o-background-size: cover;
     background-size: cover;
 color: white;
-    height:120vh;
+    height:100%;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -184,6 +188,8 @@ color: white;
 }
 .about-container{
     background-color: rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    padding: 10px;
     width: 80vw;
     height: 80vh;
     text-align: center;
@@ -269,12 +275,9 @@ color: white;
 /* Project Section styling */
 
 #work {
-    background: url(./main-page-background-image.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+background-color: #1a1a1a;
         height:100%;
+        color: white;
     width: 100vw;
 }
 
@@ -285,6 +288,7 @@ color: white;
     margin-top: 10vh;
     text-align: center;
     padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .fa-iconss{
@@ -390,12 +394,12 @@ color: black;
         margin: 0px;
         line-height: 19px;
         font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 1em;
+        font-size: .7em;
     }
 
     .projects-grid {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
 
     .projects-grid { grid-template-columns: repeat(1, 100%); }
@@ -432,7 +436,7 @@ color: black;
 
     }
 
-    .about-description-container{
+    .about-container{
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -461,7 +465,7 @@ color: black;
 @media only screen and (min-width: 768px) {
     #candid-photo {
         margin: 40px;
-        margin-left: 150px;
+        margin-left: 300px;
         padding: 10px;
         width: 400px;
         height: 400px;
