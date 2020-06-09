@@ -12,7 +12,7 @@ img {
   }
 
 body {
-    background: url(./meandd.jpeg) no-repeat center center fixed; 
+    background: url(./me.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -121,7 +121,7 @@ ul {
 .flex-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-;
     justify-content: center;
     margin: 10px;
     padding: 20px;
@@ -137,6 +137,7 @@ a:hover {
     color: skyblue
     }
     
+ 
 
 .nav-link:hover{
     color: skyblue;
@@ -151,7 +152,8 @@ a:hover {
     width: 100vw;
 }
 #about {
-    background-image: linear-gradient(62deg, #d6dce2 0%, #4e87c0 100%);
+background-color: #1a1a1a;
+color: white;
     height:90vh;
     width: 100vw;
 }
@@ -163,6 +165,7 @@ a:hover {
 
 .about-description-text {
     margin-top: 50px;
+    text-align: center;
 }
 
 
