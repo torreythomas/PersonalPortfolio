@@ -4,6 +4,18 @@
     box-sizing: border-box;
     font-family: 'Open Sans Condensed', sans-serif;
 
+
+}
+
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
 img {
@@ -19,6 +31,7 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
+     
 }
 
 .container {
