@@ -133,13 +133,11 @@ li {
     font-size: 1.5em;
 }
 
-a:hover {
+.nav-link:hover {
     color: skyblue
     }
-    
- 
 
-.nav-link:hover{
+i:hover{
     color: skyblue;
 }
 
@@ -161,6 +159,8 @@ color: white;
 
 .about-description-container{
     display: flex;
+    line-height: 15px;
+
 }
 
 .about-description-text {
